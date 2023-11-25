@@ -20,17 +20,17 @@ program memory, as well as the *public key*. The file is encrypted using the *pu
 by the encryption method is stored as a file, using the same extension of the original one. The decryption follows the
 same process but uses the *private key*.  
 
-### For the tools' functionality, you can click here: [Tools][tool]  
+### For the tools' functionality, you can click here: [Tools][tools]  
 
 ### For the project's showcase, you can click here: [Showcase][showcase]  
 
 ---
 
-## How to use  
+### How to use  
 
 here will come an explanation on how to use the tools.  
 
-## Syntax  
+### Syntax  
 
 here will come an explanation about the tools' syntax.  
 
@@ -41,5 +41,5 @@ here will come an explanation about the tools' syntax.
 here will come the skill's showcase for this project.
 
 [link1]: https://www.coursera.org/projects/encryption-with-python-encrypt-data-with-key-pairs "Coursera Guided Project"
-[tools]: 
-[showcase]: 
+[tools]: https://github.com/ItaloHugoMDS/Encryption_and_Decryption_with_Python#how-to-use
+[showcase]: https://github.com/ItaloHugoMDS/Encryption_and_Decryption_with_Python#showcase
