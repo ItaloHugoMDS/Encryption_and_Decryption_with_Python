@@ -60,8 +60,8 @@ def main():
     # The tool requires 3 arguments to process the encryption. But the 4th argument is optional, and it's related to the
     # output file name.
     if len(sys.argv) < 3 or len(sys.argv) > 4:  # Making sure the correct number of arguments was entered.
-        print(f"Usage: ./Encrypting_File.py [File_Name] [Public_Key.pem]\n")
-        print(f"OPTIONAL: ./Encrypting_File.py [File_Name] [Public_Key.pem] [Encrypted_File_Name]\n\n"
+        print(f"Usage: ./Encrypt_File.py [File_Name] [Public_Key.pem]\n")
+        print(f"OPTIONAL: ./Encrypt_File.py [File_Name] [Public_Key.pem] [Encrypted_File_Name]\n\n"
               f"ATTENTION!!!\nBy default, the original file will be OVERWRITTEN by the encrypted file")
         exit(1)
 
