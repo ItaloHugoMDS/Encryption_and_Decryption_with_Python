@@ -51,8 +51,8 @@ will require `python3` to be run, and execute the following command:
 
 > `python3 Generate_Keys.py [Name_of_Private_PEM] [Name_of_Public_PEM] [Private_Key_Password]`  
 
-Otherwise, you can use the [`Generate_Keys`][file2] file, which can be stored in to the `/bin` directory and script can
-be run anywhere within the terminal, and use the following command:  
+Otherwise, you can use the [`Generate_Keys`][file2] file, which can be stored in to the `/bin` directory and the script
+can be run anywhere within the terminal, and use the following command:  
 
 > `./Generate_Keys [Name_of_Private_PEM] [Name_of_Public_PEM] [Private_Key_Password]`  
 
