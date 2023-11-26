@@ -55,7 +55,7 @@ def serialization_pem(filename, pem_key):   # Serializing PEM objects.
 def main():
 
     if len(sys.argv) != 4:  # Making sure the correct number of arguments was used.
-        print("Usage: ./Generate_Keys.py [Name_of_Private_PEM] [Name_of_Public_PEM] [Private_Key_Password]")
+        print("Usage: python3 Generate_Keys.py [Name_of_Private_PEM] [Name_of_Public_PEM] [Private_Key_Password]")
         exit(1)
 
     private_key = generate_private_key()    # Private key object.

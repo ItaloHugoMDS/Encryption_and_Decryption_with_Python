@@ -52,8 +52,8 @@ def main():
     # The tool requires 4 arguments to process the decryption. But the 5th argument is optional, and it's related to the
     # output file name.
     if len(sys.argv) < 4 or len(sys.argv) > 5:
-        print(f"Usage: ./Decrypt_File.py [File_ToBe_Decrypted] [Private_Key.pem] [Private_Key_Password]\n")
-        print(f"OPTIONAL: ./Decrypt_File.py [File_ToBe_Decrypted] [Private_Key.pem] [Private_Key_Password] "
+        print(f"Usage: python3 Decrypt_File.py [File_To_Be_Decrypted] [Private_Key.pem] [Private_Key_Password]\n")
+        print(f"OPTIONAL: python3 Decrypt_File.py [File_To_Be_Decrypted] [Private_Key.pem] [Private_Key_Password] "
               f"[Encrypted_File_Name]\n\n"
               f"ATTENTION!!!\nBy default, the original file will be OVERWRITTEN by the decrypted file")
         exit(1)
