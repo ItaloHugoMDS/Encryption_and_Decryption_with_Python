@@ -31,7 +31,9 @@ same process but uses the *private key*.
 To get access to the tools contained in this repository, you can either download the source code for each tool or you
 can clone this repository by running the following command:  
 
-> `git clone https://github.com/ItaloHugoMDS/Encryption_and_Decryption_with_Python.git`  
+```
+git clone https://github.com/ItaloHugoMDS/Encryption_and_Decryption_with_Python.git  
+```
 
 The tools used in this project can only encrypt small files due to the limitations of RSA. But before jumping to the
 file encryption process, a few steps need to be taken first:  
@@ -49,12 +51,15 @@ For each step in further detail, you can go to the **Syntax** of the tools.
 In order to generate the keys for encryption and decryption, you can use the [`Generate_Keys.py`][file1] file, which
 will require `python3` to be run, and execute the following command:  
 
-> `python3 Generate_Keys.py [Name_of_Private_PEM] [Name_of_Public_PEM] [Private_Key_Password]`  
-
+```
+python3 Generate_Keys.py [Name_of_Private_PEM] [Name_of_Public_PEM] [Private_Key_Password]  
+```
 Otherwise, you can use the [`Generate_Keys`][file2] file, which can be stored in to the `/bin` directory and the script
 can be run anywhere within the terminal, and use the following command:  
 
-> `./Generate_Keys [Name_of_Private_PEM] [Name_of_Public_PEM] [Private_Key_Password]`  
+```
+./Generate_Keys [Name_of_Private_PEM] [Name_of_Public_PEM] [Private_Key_Password]  
+```
 
 The arguments for both files are the same:  
 
@@ -65,13 +70,17 @@ The arguments for both files are the same:
 ### 2. Encrypting Files  
 
 For the encryption process, you can use the [`Encrypt_File.py`][file3] which will require `python3`, and run the
-following command:  
+following command:
 
-> `python3 Encrypt_File.py [File_Name] [Public_Key.pem] [Encrypted_File_Name]`  
+```
+python3 Encrypt_File.py [File_Name] [Public_Key.pem] [Encrypted_File_Name]  
+```
 
 You can also use the [`Encrypt_File`][file4] file, and execute the following command:  
 
-> `./Encrypt_File [File_Name] [Public_Key.pem] [Encrypted_File_Name]`  
+```
+./Encrypt_File [File_Name] [Public_Key.pem] [Encrypted_File_Name]  
+```
 
 Both files make use of the same argument:  
 
@@ -84,11 +93,15 @@ this argument isn't provided in the execution, the original file will be overwri
 
 The decryption process can be done using the [`Decrypt_File.py`][file5], executing the following command:  
 
-> `python3 Decrypt_File.py [File_To_Be_Decrypted] [Private_Key.pem] [Private_Key_Password] [Encrypted_File_Name]`  
+```
+python3 Decrypt_File.py [File_To_Be_Decrypted] [Private_Key.pem] [Private_Key_Password] [Encrypted_File_Name]  
+```
 
 It is also possible to use the [`Decrypt_File`][file6], using the following command:  
 
-> `./Decrypt_File [File_To_Be_Decrypted] [Private_Key.pem] [Private_Key_Password] [Encrypted_File_Name]`  
+```
+./Decrypt_File [File_To_Be_Decrypted] [Private_Key.pem] [Private_Key_Password] [Encrypted_File_Name]  
+```
 
 The arguments used for both files are the same:  
 
