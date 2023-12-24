@@ -40,7 +40,7 @@ def encrypt_data(public_key, data):    # Encrypting the data.
         plaintext=data,
 
         # Padding is a way, used in encryption, to extend the cipher text, so it will match the block size of the hash.
-        padding=padding.OAEP(  # OAEP (Optimal Asymmetric Encryption Padding) is recommended for RSA encryption.
+        padding=padding.OAEP(  # OAEP (Optimal Asymmetric encryption Padding) is recommended for RSA encryption.
 
             # MFG (Mask Generation Function) will create a mask with the same size of the inputted data.
             mgf=padding.MGF1(algorithm=hashes.SHA256()),
